@@ -1,0 +1,20 @@
+﻿@model company.BL.Model.jobVM
+@{
+    ViewBag.Title = "  عرض  قسم";
+}
+<div class="block-header">
+    <a>الصفحة الرئيسية/ الاقسام/عرض القسم</a>
+    <h2>
+        عرض القسم
+    </h2>
+</div>
+
+<label for="jobName">اسم القسم</label>
+<input type="text" class="form-control" asp-for="jobName" disabled />
+<label for="salary">اسم القسم</label>
+<input type="text" class="form-control" asp-for="salary" disabled />
+<center>
+    <a asp-controller="department" asp-action="index" class="btn btn-success">رجوع</a>
+    <a asp-controller="Job" asp-action="edit" asp-route-id="@Model.id" class="btn btn-warning">تعديل</a>
+     
+</center>

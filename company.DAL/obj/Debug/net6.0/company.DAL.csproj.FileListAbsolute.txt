@@ -1,0 +1,14 @@
+C:\Users\Almohands\source\repos\companyHr\company.DAL\bin\Debug\net6.0\company.DAL.deps.json
+C:\Users\Almohands\source\repos\companyHr\company.DAL\bin\Debug\net6.0\company.DAL.runtimeconfig.json
+C:\Users\Almohands\source\repos\companyHr\company.DAL\bin\Debug\net6.0\company.DAL.dll
+C:\Users\Almohands\source\repos\companyHr\company.DAL\bin\Debug\net6.0\company.DAL.pdb
+C:\Users\Almohands\source\repos\companyHr\company.DAL\obj\Debug\net6.0\company.DAL.csproj.AssemblyReference.cache
+C:\Users\Almohands\source\repos\companyHr\company.DAL\obj\Debug\net6.0\company.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Almohands\source\repos\companyHr\company.DAL\obj\Debug\net6.0\company.DAL.AssemblyInfoInputs.cache
+C:\Users\Almohands\source\repos\companyHr\company.DAL\obj\Debug\net6.0\company.DAL.AssemblyInfo.cs
+C:\Users\Almohands\source\repos\companyHr\company.DAL\obj\Debug\net6.0\company.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Almohands\source\repos\companyHr\company.DAL\obj\Debug\net6.0\company.DAL.dll
+C:\Users\Almohands\source\repos\companyHr\company.DAL\obj\Debug\net6.0\refint\company.DAL.dll
+C:\Users\Almohands\source\repos\companyHr\company.DAL\obj\Debug\net6.0\company.DAL.pdb
+C:\Users\Almohands\source\repos\companyHr\company.DAL\obj\Debug\net6.0\company.DAL.genruntimeconfig.cache
+C:\Users\Almohands\source\repos\companyHr\company.DAL\obj\Debug\net6.0\ref\company.DAL.dll

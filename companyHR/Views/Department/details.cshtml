@@ -1,0 +1,26 @@
+﻿@model company.BL.Model.DepartmentVM
+@{
+    ViewBag.Title = "Department Details";
+}
+<div class="row clearfix">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="card">
+            <div class="header">
+                <h2> Department Details </h2>
+
+            </div>
+            <div class="body">
+                    <div class="form-group form-float">
+                        <div class="form-line">
+                            <input type="text" class="form-control" asp-for="Name" disabled />
+                        <label class="form-label">Department Name</label>
+                        </div>
+                    </div>
+
+                <a asp-controller="department" asp-action="index" class="btn btn-success">Back</a>
+            </div>
+        </div>
+    </div>
+</div>
+<center>
+</center>

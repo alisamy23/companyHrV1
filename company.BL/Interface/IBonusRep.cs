@@ -1,0 +1,18 @@
+﻿using company.DAL.Repository.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace company.BL.Interface
+{
+    public interface IBonusRep
+    {
+        IEnumerable<bonuss> GetAll();
+        bonuss GetById(int id);
+        void create(bonuss department);
+        void edit(bonuss department);
+        void delete(bonuss department);
+    }
+}

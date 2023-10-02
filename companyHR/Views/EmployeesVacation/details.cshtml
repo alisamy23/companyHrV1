@@ -1,0 +1,68 @@
+﻿@model company.BL.Model.EmployeeBounsVM
+@inject company.BL.Interface.IEmployeeRep employeeRep
+@inject company.BL.Interface.IBonusRep bonudRep
+
+@{
+    ViewBag.Title = "Employee Bonus Details";
+    var employeeName = employeeRep.GetById(Model.employeeId).employeeName;
+    var departmen = bonudRep.GetById(Model.bonusId);
+
+}
+
+
+<div class="row clearfix">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="card">
+            <div class="header">
+                <h2> Employee Bonus Details </h2>
+
+            </div>
+            <div class="body">
+
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-group form-float">
+                                <div class="form-line">
+                                <input type="text" class="form-control" value="@employeeName" readonly="readonly" />
+                                    <label class="form-label">Employee Name </label>
+
+                                </div>
+                            </div>
+                            <div class="form-group form-float">
+                                <div class="form-line">
+                                <input type="text" class="form-control" value="@departmen.bonusName" readonly="readonly" />
+                                    <label class="form-label">Bonus Name</label>
+
+                                </div>
+                            </div>
+                        <div class="form-group form-float">
+                            <div class="form-line">
+                                <input type="text" class="form-control" value="@departmen.bonusValue" readonly="readonly" />
+                                <label class="form-label">Bonus Value</label>
+
+                            </div>
+                        </div>
+
+                        <div class="form-group form-float">
+                                <input type="radio" value="false" asp-for="@departmen.Bonusflag" id="Bonusflag1" class="with-gap" disabled>
+                                <label class="form-label" for="Bonusflag1">Deduction</label>
+                                <input type="radio" value="true" asp-for="@departmen.Bonusflag" id="Bonusflag2" class="with-gap" disabled>
+                            <label class="form-label" for="Bonusflag2">Bonus</label>
+
+                            </div>
+                        </div>
+
+
+
+                        
+
+                        </div>
+                <a asp-controller="EmployeeBonus" asp-action="index" class="btn btn-success">Back</a>
+
+                    </div>
+
+
+            </div>
+        </div>
+    </div>
+

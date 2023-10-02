@@ -1,0 +1,69 @@
+﻿@model company.BL.Model.jobVM
+@{
+    ViewBag.Title = "  إضافة  قسم";
+}
+<div class="block-header">
+    <a>الصفحة الرئيسية/ الاقسام/اضافة قسم</a>
+  
+</div>
+
+
+@* <form asp-asp-controller="Department" asp-action="create" method="post" >
+    <div asp-validation-summary="All"></div>
+    <label for="Name">اسم القسم</label>
+    <input type="text" class="form-control" asp-for="Name"  />
+    <span asp-validation-for="Name" class="text-danger "></span>
+    <br />
+    <center>
+        <input type="submit" value="حفظ" class="btn btn-primary" />
+        <input type="reset" value="الغاء" class="btn btn-danger" />
+
+    </center>
+</form> *@
+<div class="row clearfix">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="card">
+            <div class="header">
+                <h2> إضافة قسم جديد</h2>
+               
+            </div>
+            <div class="body">
+                <form id="form_validation" asp-asp-controller="Job" asp-action="create" method="post">
+
+
+                    
+                    
+                    <div class="form-group form-float">
+                        <div class="form-line">
+                            <input type="text" class="form-control" asp-for="jobName" />
+                            <label class="form-label"> Job Name</label>
+                            <span asp-validation-for="jobName" class="text-danger "></span>
+
+                        </div>
+                    </div>
+
+                    <div class="form-group form-float">
+                        <div class="form-line">
+                            <input type="number" class="form-control" asp-for="salary" />
+                            <label class="form-label"> ssalary</label>
+                            <span asp-validation-for="salary" class="text-danger "></span>
+
+                        </div>
+                    </div>
+                    <button class="btn btn-primary waves-effect" type="submit">حفظ</button>
+                    <button class="btn btn-primary waves-effect" type="reset">الغاء</button>
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section MicrosoftValidation{
+@*     <script src="~/js/pages/forms/form-validation.js"></script>
+ *@
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

@@ -1,0 +1,15 @@
+C:\Users\Almohands\source\repos\companyHr\company.BL\bin\Debug\net6.0\company.BL.deps.json
+C:\Users\Almohands\source\repos\companyHr\company.BL\bin\Debug\net6.0\company.BL.dll
+C:\Users\Almohands\source\repos\companyHr\company.BL\bin\Debug\net6.0\company.BL.pdb
+C:\Users\Almohands\source\repos\companyHr\company.BL\bin\Debug\net6.0\company.DAL.dll
+C:\Users\Almohands\source\repos\companyHr\company.BL\bin\Debug\net6.0\company.DAL.pdb
+C:\Users\Almohands\source\repos\companyHr\company.BL\obj\Debug\net6.0\company.BL.csproj.AssemblyReference.cache
+C:\Users\Almohands\source\repos\companyHr\company.BL\obj\Debug\net6.0\company.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Almohands\source\repos\companyHr\company.BL\obj\Debug\net6.0\company.BL.AssemblyInfoInputs.cache
+C:\Users\Almohands\source\repos\companyHr\company.BL\obj\Debug\net6.0\company.BL.AssemblyInfo.cs
+C:\Users\Almohands\source\repos\companyHr\company.BL\obj\Debug\net6.0\company.BL.csproj.CoreCompileInputs.cache
+C:\Users\Almohands\source\repos\companyHr\company.BL\obj\Debug\net6.0\company.BL.csproj.CopyComplete
+C:\Users\Almohands\source\repos\companyHr\company.BL\obj\Debug\net6.0\company.BL.dll
+C:\Users\Almohands\source\repos\companyHr\company.BL\obj\Debug\net6.0\refint\company.BL.dll
+C:\Users\Almohands\source\repos\companyHr\company.BL\obj\Debug\net6.0\company.BL.pdb
+C:\Users\Almohands\source\repos\companyHr\company.BL\obj\Debug\net6.0\ref\company.BL.dll

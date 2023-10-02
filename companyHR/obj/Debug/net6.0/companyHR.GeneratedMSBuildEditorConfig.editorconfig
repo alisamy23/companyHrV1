@@ -1,0 +1,177 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = companyHR
+build_property.RootNamespace = companyHR
+build_property.ProjectDir = C:\Users\Almohands\source\repos\companyHr\companyHR\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Almohands\source\repos\companyHr\companyHR
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Almohands/source/repos/companyHr/companyHR/Views/Bonuss/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9udXNzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Almohands/source/repos/companyHr/companyHR/Views/Bonuss/delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9udXNzXGRlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Almohands/source/repos/companyHr/companyHR/Views/Bonuss/details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9udXNzXGRldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Almohands/source/repos/companyHr/companyHR/Views/Bonuss/edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9udXNzXGVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Almohands/source/repos/companyHr/companyHR/Views/Bonuss/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9udXNzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Almohands/source/repos/companyHr/companyHR/Views/Department/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Almohands/source/repos/companyHr/companyHR/Views/Department/delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxkZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Almohands/source/repos/companyHr/companyHR/Views/Department/details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxkZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Almohands/source/repos/companyHr/companyHR/Views/Department/edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxlZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Almohands/source/repos/companyHr/companyHR/Views/Department/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Almohands/source/repos/companyHr/companyHR/Views/EmployeeBonus/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVCb251c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Almohands/source/repos/companyHr/companyHR/Views/EmployeeBonus/delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVCb251c1xkZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Almohands/source/repos/companyHr/companyHR/Views/EmployeeBonus/details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVCb251c1xkZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Almohands/source/repos/companyHr/companyHR/Views/EmployeeBonus/edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVCb251c1xlZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Almohands/source/repos/companyHr/companyHR/Views/EmployeeBonus/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVCb251c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Almohands/source/repos/companyHr/companyHR/Views/EmployeesVacation/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzVmFjYXRpb25cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Almohands/source/repos/companyHr/companyHR/Views/EmployeesVacation/delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzVmFjYXRpb25cZGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Almohands/source/repos/companyHr/companyHR/Views/EmployeesVacation/details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzVmFjYXRpb25cZGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Almohands/source/repos/companyHr/companyHR/Views/EmployeesVacation/edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzVmFjYXRpb25cZWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Almohands/source/repos/companyHr/companyHR/Views/EmployeesVacation/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzVmFjYXRpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Almohands/source/repos/companyHr/companyHR/Views/Employees/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Almohands/source/repos/companyHr/companyHR/Views/Employees/delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXGRlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Almohands/source/repos/companyHr/companyHR/Views/Employees/details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXGRldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Almohands/source/repos/companyHr/companyHR/Views/Employees/edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXGVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Almohands/source/repos/companyHr/companyHR/Views/Employees/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Almohands/source/repos/companyHr/companyHR/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Almohands/source/repos/companyHr/companyHR/Views/Job/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Almohands/source/repos/companyHr/companyHR/Views/Job/delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iXGRlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Almohands/source/repos/companyHr/companyHR/Views/Job/details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iXGRldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Almohands/source/repos/companyHr/companyHR/Views/Job/edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iXGVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Almohands/source/repos/companyHr/companyHR/Views/Job/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Almohands/source/repos/companyHr/companyHR/Views/PartialView/PartialLayout/footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbFZpZXdcUGFydGlhbExheW91dFxmb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Almohands/source/repos/companyHr/companyHR/Views/Vacation/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFjYXRpb25cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Almohands/source/repos/companyHr/companyHR/Views/Vacation/delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFjYXRpb25cZGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Almohands/source/repos/companyHr/companyHR/Views/Vacation/details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFjYXRpb25cZGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Almohands/source/repos/companyHr/companyHR/Views/Vacation/edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFjYXRpb25cZWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Almohands/source/repos/companyHr/companyHR/Views/Vacation/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFjYXRpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Almohands/source/repos/companyHr/companyHR/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Almohands/source/repos/companyHr/companyHR/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Almohands/source/repos/companyHr/companyHR/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-9rc2xzhp3j

@@ -1,0 +1,37 @@
+﻿@model company.BL.Model.DepartmentVM
+@{
+    ViewBag.Title = "Edit Department";
+}
+<div class="block-header">
+    <a>الصفحة الرئيسية/ الاقسام/اضافة قسم</a>
+
+</div>
+<div class="row clearfix">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="card">
+            <div class="header">
+                <h2>Edit Bonus</h2>
+            </div>
+            <div class="body">
+                <form id="form_validation" asp-asp-controller="department" asp-action="edit" method="post">
+                    <div class="form-group form-float">
+                        <div class="form-line">
+                            <input type="text" class="form-control" asp-for="Name" />
+                            <label class="form-label">department Name</label>
+                            <span asp-validation-for="Name" class="text-danger "></span>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary waves-effect" type="submit">Create</button>
+                    <a asp-controller="department" asp-action="index" class="btn btn-success">Back</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section MicrosoftValidation{
+
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

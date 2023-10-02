@@ -1,0 +1,83 @@
+﻿@model IEnumerable<company.BL.Model.BonusVM>
+@{
+    ViewBag.Title = "Bonus";
+}
+
+<!-- Exportable Table -->
+<div class="row clearfix">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="card">
+            <div class="header">
+                <div class="row ">
+                    <div class="col-lg-6 text-left-center ">
+                        <h2>
+                            Bonus Table
+                        </h2>
+                    </div>
+                    <div class="col-lg-6 text-right-center">
+                        <a class=" btn btn-primary " asp-controller="Bonuss" asp-action="Create">Create</a>
+                    </div>
+                </div>
+            </div>
+            <div class="body">
+                <div class="table-responsive">
+                    <table class="table table-bordered  table-hover js-basic-example dataTable">
+                        <thead>
+                            <tr>
+                                <th>Id</th>
+                                <th>Bonus Name</th>
+                                <th>Bonus Value</th>
+                                <th>Bonus Type</th>
+                                <th>DETAILS</th>
+                                <th>EDIT</th>
+                                <th>DELETE</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach(var  item  in Model)
+                            {
+                                 <tr>
+                                    <td> @item.id</td>
+                                    <td>@item.bonusName</td>
+                                    <td>@item.bonusValue</td>
+                                   @{ if (item.Bonusflag == false)
+                                    {
+                                        <td> Deduction </td>
+                                    }
+                                    else{
+                                    <td> Bonus </td>
+
+                                    }
+                                    }
+                                    <td><a asp-controller="Bonuss" asp-action="details" asp-route-id="@item.id" class="btn btn-success">Details</a></td>
+                                    <td><a asp-controller="Bonuss" asp-action="edit" asp-route-id="@item.id" class="btn btn-warning">Edit</a></td>
+                                    <td><a asp-controller="Bonuss" asp-action="delete" asp-route-id="@item.id" class="btn btn-danger">Delete</a></td>
+                                 </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- #END# Exportable Table -->
+
+<!-- Jquery DataTable Plugin Js -->
+    @section DataTabelScripts {
+    <script src="/plugins/jquery-datatable/jquery.dataTables.js"></script>
+    <script src="/plugins/jquery-datatable/skin/bootstrap/js/dataTables.bootstrap.js"></script>
+    <script src="/plugins/jquery-datatable/extensions/export/dataTables.buttons.min.js"></script>
+    <script src="/plugins/jquery-datatable/extensions/export/buttons.flash.min.js"></script>
+    <script src="/plugins/jquery-datatable/extensions/export/jszip.min.js"></script>
+    <script src="/plugins/jquery-datatable/extensions/export/pdfmake.min.js"></script>
+    <script src="/plugins/jquery-datatable/extensions/export/vfs_fonts.js"></script>
+    <script src="/plugins/jquery-datatable/extensions/export/buttons.html5.min.js"></script>
+    <script src="/plugins/jquery-datatable/extensions/export/buttons.print.min.js"></script>
+    <script src="/js/pages/tables/jquery-datatable.js"></script>
+
+
+    }
+   
+
+

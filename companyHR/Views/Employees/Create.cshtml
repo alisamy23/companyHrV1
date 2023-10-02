@@ -1,0 +1,183 @@
+﻿@model company.BL.Model.EmployeeVM
+@inject company.BL.Interface.IGenderRep gender
+@inject company.BL.Interface.IReligionRep religion
+@inject company.BL.Interface.IDepartmentRep department
+@inject company.BL.Interface.IEmployeeBounsRep emplo
+
+@{
+    ViewBag.Title = "Add Employee";
+    var x = emplo.GetAll();
+}
+
+<div class="row clearfix">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="card">
+            <div class="header">
+                <h2>Add Employee</h2>
+               
+            </div>
+            <div class="body">
+                <form id="form_validation" asp-asp-controller="Department" asp-action="create" method="post">
+
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-group form-float">
+                                <div class="form-line">
+                                    <input type="text" class="form-control" asp-for="employeeName" />
+                                    <label class="form-label">Employee Name </label>
+                                    <span asp-validation-for="employeeName" class="text-danger "></span>
+
+                                </div>
+                            </div>
+                            <div class="form-group form-float">
+                                <div class="form-line">
+                                    <input type="text" class="form-control" asp-for="phone1" />
+                                    <label class="form-label">phone1 </label>
+                                    <span asp-validation-for="phone1" class="text-danger "></span>
+
+                                </div>
+                            </div>
+                            <div class="form-group form-float">
+                                <div class="form-line">
+                                    <input type="text" class="form-control" asp-for="phone2" />
+                                    <label class="form-label">phone2 </label>
+                                    <span asp-validation-for="phone2" class="text-danger "></span>
+
+                                </div>
+                            </div>
+                       
+                            <div class="form-group form-float">
+                                <div class="form-line">
+                                    <input type="text" class="form-control" asp-for="address" />
+                                    <label class="form-label"> address </label>
+                                    <span asp-validation-for="address" class="text-danger "></span>
+
+                                </div>
+                            </div>
+
+                            <div class="form-group form-float">
+                                <select asp-for="deprtmentId" class="form-control show-tick">
+                                    <option value="">-- Please select department  --</option>
+                                    @{
+                                        foreach (var item in department.GetAll())
+                                        {
+                                            <option value="@item.Id">@item.Name</option>
+                                        }
+                                    }
+                                </select>
+
+                                <span asp-validation-for="deprtmentId" class="text-danger "></span>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label"> religion </label>
+
+                                <div class="form-line">
+                                    @{
+                                        foreach (var item in religion.GetAll())
+                                        {
+                                            <input type="radio" value="@item.id" asp-for="religionId" id="religionId+@item.id" class="with-gap">
+                                            <label for="religionId+@item.id" class="m-l-20">@item.religionName</label>
+                                        }
+                                    }
+                                    <div>
+                                        <span asp-validation-for="religionId" class="text-danger "></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group form-float">
+                                <div class="form-line">
+                                    <input type="text" class="form-control" asp-for="nationalId" />
+                                    <label class="form-label"> nationalId </label>
+                                    <span asp-validation-for="nationalId" class="text-danger "></span>
+
+                                </div>
+                            </div>
+
+                            <div class="form-group form-float">
+                                <div class="form-line">
+                                    <input type="text" class="form-control" onfocus="(this.type='date')" onblur="if(!this.value)this.type='text'" asp-for="birthdate" />
+                                    <label class="form-label"> birthdate </label>
+                                    <span asp-validation-for="birthdate" class="text-danger "></span>
+
+                                </div>
+                            </div>
+                            <div class="form-group form-float">
+                                <div class="form-line">
+                                    <input type="text" class="form-control" asp-for="startDate" onfocus="(this.type='date')" onblur="if(!this.value)this.type='text'" />
+                                    <label class="form-label"> startDate </label>
+                                    <span asp-validation-for="startDate" class="text-danger "></span>
+
+                                </div>
+                            </div>
+
+                            <div class="form-group form-float">
+                                <div class="form-line">
+                                    <input type="text" class="form-control" asp-for="endDate" onfocus="(this.type='date')" onblur="if(!this.value)this.type='text'" />
+                                    <label class="form-label"> endDate </label>
+
+                                </div>
+                            </div> 
+                            <div class="form-group" form-float">
+                                <div class="form-line">
+
+                                <input checked="checked"
+                                       id="isAvtive"
+                                       name="isAvtive"
+                                       type="checkbox"
+                                       value="true" />
+                                <label for="isAvtive">Employee is  active ?</label>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                    <label class="form-label "> gender </label>
+                                <div class="form-line ">
+
+                                @{
+                                    foreach (var item in gender.GetAll())
+                                    {
+                                        <input type="radio" value="@item.id" asp-for="genderId" id="genderId+@item.id" class="with-gap">
+                                        <label for="genderId+@item.id" class="m-l-20">@item.genderName</label>
+                                    }
+                                }
+                                <div>
+                                    <span asp-validation-for="genderId" class="text-danger "></span>
+                                </div>
+                                </div>
+                            </div>
+                            
+                           
+                        </div>
+                    </div>
+                    
+                    
+
+
+
+
+
+
+   
+                    <button class="btn btn-primary waves-effect" type="submit">Create</button>
+                    <button class="btn btn-primary waves-effect" type="reset">Cancel</button>
+                    <a asp-controller="Employees" asp-action="index" class="btn btn-success">Back</a>
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section MicrosoftValidation{
+
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+
+}

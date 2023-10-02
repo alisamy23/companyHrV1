@@ -1,0 +1,93 @@
+﻿@model company.BL.Model.EmployeesVacationVM
+@inject company.BL.Interface.IEmployeeRep employeeRep
+@inject company.BL.Interface.IVacationRep vactionRep
+
+
+@{
+    ViewBag.Title = "Add Employee Vacation";
+}
+
+<div class="row clearfix">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="card">
+            <div class="header">
+                <h2>Add Employee Vacation</h2>
+               
+            </div>
+            <div class="body">
+                <form id="form_validation" asp-asp-controller="EmployeesVacation" asp-action="create" method="post">
+
+                    <div class="row">
+
+                        <div class="form-group form-float">
+                            <select asp-for="employeeId" class="form-control show-tick">
+                                <option value="">-- Please select Employee  --</option>
+                                @{
+                                    foreach (var item in employeeRep.GetAll())
+                                    {
+                                        <option value="@item.id">@item.employeeName</option>
+                                    }
+                                }
+                            </select>
+
+                            <span asp-validation-for="employeeId" class="text-danger "></span>
+                        </div>
+
+                        <div class="form-group form-float">
+                        <div class="form-group form-float">
+                            <select asp-for="vacationId" class="form-control show-tick">
+                                    <option value="">-- Please select Bonus/Deduction  --</option>
+                                    @{
+                                        foreach (var item in vactionRep.GetAll())
+                                        {
+                                    
+                                                <option  value="@item.id">@item.vacationName  </option>
+
+                                            
+                                        }
+                                }
+                            </select>
+
+                                <span asp-validation-for="vacationId" class="text-danger "></span>
+                        </div>
+
+                            <div class="form-group form-float">
+                                <div class="form-line">
+                                    <input type="text" class="form-control" onfocus="(this.type='date')" onblur="if(!this.value)this.type='text'" asp-for="fromDate" />
+                                    <label class="form-label"> From Date </label>
+                                    <span asp-validation-for="fromDate" class="text-danger "></span>
+
+                                </div>
+                            </div>
+                            <div class="form-group form-float">
+                                <div class="form-line">
+                                    <input type="text" class="form-control" onfocus="(this.type='date')" onblur="if(!this.value)this.type='text'" asp-for="toDate" />
+                                    <label class="form-label"> To Date </label>
+                                    <span asp-validation-for="toDate" class="text-danger "></span>
+
+                                </div>
+                            </div>
+                    </div>
+   
+                </div>
+
+                    <button class="btn btn-primary waves-effect" type="submit">Create</button>
+                    <button class="btn btn-primary waves-effect" type="reset">Cancel</button>
+                    <a asp-controller="EmployeesVacation" asp-action="index" class="btn btn-success">Back</a>
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section MicrosoftValidation{
+
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+
+}
